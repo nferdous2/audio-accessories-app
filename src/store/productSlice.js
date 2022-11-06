@@ -12,7 +12,7 @@ const initialState = {
 //api call 
 export const fetchProducts = createAsyncThunk('products/fetchProducts',
  async () => {
-  const response = await fetch("https://fakestoreapi.com/products");
+  // const response = await fetch("https://fakestoreapi.com/products");
   return response.json();
 })
 

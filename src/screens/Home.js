@@ -115,6 +115,7 @@ const FeaturedProduct = ({ name, category, image }) => {
           />
         </View>
       </View>
+      {/* names and category */}
       <View style={{ paddingBottom: Spacing[8], marginTop: -Spacing[6] }}>
         <Text preset="h3" centered uppercase white>
           {name}

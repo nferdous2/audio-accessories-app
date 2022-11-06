@@ -8,6 +8,7 @@ import BannerTitle from "../components/BannerTitle";
 import Button from "../components/Button";
 import { useSelector } from "react-redux";
 
+
 export default function electronics({ navigation, route }) {
     const headphones = useSelector(selectHeadphones)
     const onPressProduct = (id) => {
